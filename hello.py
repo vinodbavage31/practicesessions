@@ -1,38 +1,56 @@
-import pandas as pd
+# # a=10
+# # b=20
+# # sum=a+b
+# # print(sum)
+# a=30
+# b=20
+# print(not False)
+# print((a>b))
 
-# Sample data (replace with your actual data)
-data = {'Name': ['Alice', 'Bob', 'Charlie', 'David'],
-        'Age': [25, 30, 22, 28],
-        'City': ['New York', 'London', 'Paris', 'Tokyo']}
+# val1 = True
+# val2 = True
+# print("and operator is:", val1 and val2)
 
-# Create a DataFrame from the data
-df = pd.DataFrame(data)
 
-# Display the DataFrame
-print(df)
+#type conversion
+# a = int("2")
+# b = 2.5
 
-# Accessing data
-print(df['Name'])  # Accessing a single column
-print(df[['Name', 'Age']])  # Accessing multiple columns
-print(df.loc[0])  # Accessing a row by label (index)
-print(df.iloc[1])  # Accessing a row by position
+# sum = a+b 
+# print(a + b)
+# print(type(a))
+# val = int(input("enter some value:"))
+# print(type(val), val)
+# name = str(input("enter name:"))
+# age = int(input("enter age:"))
+# marks = float(input("enter marks:"))
 
-# Filtering data
-print(df[df['Age'] > 25])  # Filter rows where Age is greater than 25
+# print("wellcome", name)
+# print("age", age)
+# print("marks", marks)
 
-# Sorting data
-print(df.sort_values(by='Age'))  # Sort by 'Age' column
+# a = int(input("enter a val1:"))
+# b = int(input("enter val2:"))
+# print("the sum of two number is :", a+b)
 
-# Grouping and aggregation
-print(df.groupby('City')['Age'].mean())  # Calculate average age for each city
 
-# Adding a new column
-df['Country'] = ['USA', 'UK', 'France', 'Japan']
-print(df)
 
-# Saving to CSV
-df.to_csv('my_data.csv', index=False) 
+#area of rectangle
+# length = int
+#wap to print average of two float numbers
+# num1 = float(input("Enter first float value:"))
+# num2 = float(input("Enter second float value:"))
+# print("Average of two float number is :", (num1+num2)/2)
 
-# Loading from CSV
-df_from_csv = pd.read_csv('my_data.csv')
-print(df_from_csv)
+
+"""""
+wap to input 2 int numbers, a and b.
+print true if a is greater(input("the squire's length is:"))
+# bredth = int(input("the squire's bredth is :"))
+# print("the area of square is :",length*bredth)
+
+ then or equal to b. if not print false
+"""""
+# a = int(input("enter a :"))
+# b = int(input("enter b :"))
+# print( a >= b )
